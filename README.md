@@ -1,8 +1,7 @@
-# Fox UI Button Package
+# Fox UI Button Package 
 
 ![Buttons](./images/img_buttons.jpg)
 
-> TYPE = [primary, link, dashed, text, default]
 
 [![NPM](https://img.shields.io/npm/v/foxui.svg)](https://www.npmjs.com/package/foxui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -13,6 +12,8 @@ npm install --save foxui
 ```
 
 ## Usage
+
+TYPE = [primary, link, dashed, text, default]
 
 ```jsx
 import React from 'react'
