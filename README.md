@@ -13,7 +13,8 @@ npm install --save foxui
 
 ## Usage
 
-TYPE = [primary, link, dashed, text, default]
+TYPE = [`primary`, `link`, `dashed`, `text`, `default`]
+
 
 ```jsx
 import React from 'react'
