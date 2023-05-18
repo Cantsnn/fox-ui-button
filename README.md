@@ -1,6 +1,8 @@
-# foxui
+# Fox UI Button Package
 
-> Made with create-react-library
+![Buttons](./images/img_buttons.jpg)
+
+> TYPE = [primary, link, dashed, text, default]
 
 [![NPM](https://img.shields.io/npm/v/foxui.svg)](https://www.npmjs.com/package/foxui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -13,16 +15,24 @@ npm install --save foxui
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'foxui'
-import 'foxui/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+import React from 'react'
+import { Button } from 'foxui'
+ 
+const App = () => {
+  return (
+    <div ><br />
+      <Button type="primary" text="Primary Button" /> <br /><br />
+      <Button type="link" text="Link Button" /><br /><br />
+      <Button text="Default Button" /><br /><br />
+      <Button type="dashed" text="Dashed Button" /><br /><br />
+      <Button type="text" text="Text Button" /><br /><br />
+      <Button type="primary" text="Custom Button" backColor="orange" textColor="purple" /><br /><br />
+      <Button text="Custom Func Button" style={{ color: "#0000", border: "3px groove", backgroundColor: "green" }} onClick={() => alert("Clicked")} /><br /><br />
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
